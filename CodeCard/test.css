@@ -1,0 +1,53 @@
+body
+{
+    background-color: #FFD100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card
+{
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px;
+}
+
+.card img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.card button
+{
+    background-color: #FFD100;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    height: 27px;
+    width: 70px;
+    margin: 10px 0 0;
+}
+.avatar
+{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#description
+{
+    color: gray;
+}
